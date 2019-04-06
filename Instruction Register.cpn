@@ -3,7 +3,7 @@
 
 <workspaceElements>
   <generator tool="CPN Tools"
-             version="4.0.0"
+             version="4.0.1"
              format="6"/>
   <cpnet>
     <globbox>
@@ -59,6 +59,13 @@
             <id>STRING</id>
           </alias>
           <layout>colset INSTRUCTION = STRING;</layout>
+        </color>
+        <color id="ID1413105346">
+          <id>DATA</id>
+          <alias>
+            <id>STRING</id>
+          </alias>
+          <layout>colset DATA= STRING;</layout>
         </color>
         <color id="ID1412539447">
           <id>BIT</id>
@@ -187,6 +194,27 @@ end</layout>
           <id>reg</id>
           <layout>var reg : REGISTER;</layout>
         </var>
+        <var id="ID1413107707">
+          <type>
+            <id>DATA</id>
+          </type>
+          <id>valueA</id>
+          <layout>var valueA: DATA;</layout>
+        </var>
+        <var id="ID1413107709">
+          <type>
+            <id>DATA</id>
+          </type>
+          <id>valueB</id>
+          <layout>var valueB: DATA;</layout>
+        </var>
+        <var id="ID1413115078">
+          <type>
+            <id>BIT</id>
+          </type>
+          <id>aluControl</id>
+          <layout>var aluControl: BIT;</layout>
+        </var>
         <var id="ID1412560715">
           <type>
             <id>REGISTER</id>
@@ -298,7 +326,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">INSTRUCTION</text>
+                version="4.0.1">INSTRUCTION</text>
         </type>
         <initmark id="ID1412525932">
           <posattr x="-69.000000"
@@ -312,7 +340,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
       </place>
       <place id="ID1412439804">
@@ -350,7 +378,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">OPERATION</text>
+                version="4.0.1">OPERATION</text>
         </type>
         <initmark id="ID1412439806">
           <posattr x="56.000000"
@@ -364,7 +392,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
       </place>
       <place id="ID1412439827">
@@ -402,7 +430,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">REGISTER</text>
+                version="4.0.1">REGISTER</text>
         </type>
         <initmark id="ID1412439829">
           <posattr x="286.000000"
@@ -416,7 +444,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
       </place>
       <place id="ID1412439853">
@@ -454,7 +482,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">REGISTER</text>
+                version="4.0.1">REGISTER</text>
         </type>
         <initmark id="ID1412439855">
           <posattr x="287.000000"
@@ -468,7 +496,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
       </place>
       <place id="ID1412439882">
@@ -506,7 +534,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">STRING</text>
+                version="4.0.1">STRING</text>
         </type>
         <initmark id="ID1412439884">
           <posattr x="350.000000"
@@ -520,7 +548,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
       </place>
       <place id="ID1412517907">
@@ -558,7 +586,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">COUNTER</text>
+                version="4.0.1">COUNTER</text>
         </type>
         <initmark id="ID1412517909">
           <posattr x="-529.000000"
@@ -572,7 +600,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">1`&quot;00000001&quot;</text>
+                version="4.0.1">1`&quot;00000001&quot;</text>
         </initmark>
       </place>
       <place id="ID1412528483">
@@ -610,7 +638,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">REGISTER</text>
+                version="4.0.1">REGISTER</text>
         </type>
         <initmark id="ID1412528485">
           <posattr x="224.000000"
@@ -624,7 +652,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
       </place>
       <place id="ID1412530283">
@@ -662,7 +690,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">REGISTER</text>
+                version="4.0.1">REGISTER</text>
         </type>
         <initmark id="ID1412530285">
           <posattr x="476.000000"
@@ -676,7 +704,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
       </place>
       <place id="ID1412538120">
@@ -714,7 +742,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">BIT</text>
+                version="4.0.1">BIT</text>
         </type>
         <initmark id="ID1412538122">
           <posattr x="336.000000"
@@ -728,7 +756,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">1`&quot;1&quot;</text>
+                version="4.0.1">1`&quot;1&quot;</text>
         </initmark>
       </place>
       <place id="ID1412580522">
@@ -755,7 +783,7 @@ end</layout>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412580523">
-          <posattr x="467.000000"
+          <posattr x="460.000000"
                    y="-260.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -766,7 +794,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">STRING</text>
+                version="4.0.1">DATA</text>
         </type>
         <initmark id="ID1412580524">
           <posattr x="476.000000"
@@ -780,7 +808,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
       </place>
       <place id="ID1412582049">
@@ -807,7 +835,7 @@ end</layout>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412582050">
-          <posattr x="706.000000"
+          <posattr x="699.000000"
                    y="-23.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -818,9 +846,9 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">STRING</text>
+                version="4.0.1">DATA</text>
         </type>
-        <initmark id="ID1412582051">
+        <initmark id="ID1413147838">
           <posattr x="715.000000"
                    y="23.000000"/>
           <fillattr colour="White"
@@ -832,7 +860,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
       </place>
       <place id="ID1412582564">
@@ -859,7 +887,7 @@ end</layout>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412582565">
-          <posattr x="709.000000"
+          <posattr x="702.000000"
                    y="-107.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -870,9 +898,9 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">STRING</text>
+                version="4.0.1">DATA</text>
         </type>
-        <initmark id="ID1412582566">
+        <initmark id="ID1413148349">
           <posattr x="718.000000"
                    y="-60.000000"/>
           <fillattr colour="White"
@@ -884,7 +912,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
       </place>
       <place id="ID1412601531">
@@ -922,7 +950,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">BIT</text>
+                version="4.0.1">BIT</text>
         </type>
         <initmark id="ID1412601533">
           <posattr x="588.000000"
@@ -936,7 +964,111 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
+        </initmark>
+      </place>
+      <place id="ID1413104904">
+        <posattr x="1050.000000"
+                 y="-42.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <text></text>
+        <ellipse w="60.000000"
+                 h="40.000000"/>
+        <token x="-10.000000"
+               y="0.000000"/>
+        <marking x="0.000000"
+                 y="0.000000"
+                 hidden="false">
+          <snap snap_id="0"
+                anchor.horizontal="0"
+                anchor.vertical="0"/>
+        </marking>
+        <type id="ID1413104905">
+          <posattr x="1090.000000"
+                   y="-65.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1">DATA</text>
+        </type>
+        <initmark id="ID1413104906">
+          <posattr x="1106.000000"
+                   y="-18.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1"/>
+        </initmark>
+      </place>
+      <place id="ID1413111442">
+        <posattr x="865.844900"
+                 y="168.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <text>ALUControl</text>
+        <ellipse w="60.000000"
+                 h="40.000000"/>
+        <token x="-10.000000"
+               y="0.000000"/>
+        <marking x="0.000000"
+                 y="0.000000"
+                 hidden="false">
+          <snap snap_id="0"
+                anchor.horizontal="0"
+                anchor.vertical="0"/>
+        </marking>
+        <type id="ID1413111443">
+          <posattr x="899.000000"
+                   y="144.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1">BIT</text>
+        </type>
+        <initmark id="ID1413111444">
+          <posattr x="915.000000"
+                   y="191.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1">1`&quot;000&quot;</text>
         </initmark>
       </place>
       <trans id="ID1412439781"
@@ -968,7 +1100,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </cond>
         <time id="ID1412439783">
           <posattr x="43.500000"
@@ -982,7 +1114,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </time>
         <code id="ID1412439784">
           <posattr x="63.500000"
@@ -996,7 +1128,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </code>
         <priority id="ID1412439786">
           <posattr x="-67.000000"
@@ -1010,7 +1142,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </priority>
       </trans>
       <trans id="ID1412520742"
@@ -1058,7 +1190,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </cond>
         <time id="ID1412520744">
           <posattr x="-189.821224"
@@ -1072,7 +1204,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </time>
         <code id="ID1412520745">
           <posattr x="-169.821224"
@@ -1086,7 +1218,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </code>
         <priority id="ID1412520747">
           <posattr x="-421.678777"
@@ -1100,7 +1232,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </priority>
       </trans>
       <trans id="ID1412526831"
@@ -1148,7 +1280,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </cond>
         <time id="ID1412526833">
           <posattr x="110.809772"
@@ -1162,7 +1294,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </time>
         <code id="ID1412526834">
           <posattr x="130.809773"
@@ -1176,7 +1308,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </code>
         <priority id="ID1412526836">
           <posattr x="-134.309773"
@@ -1190,7 +1322,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </priority>
       </trans>
       <trans id="ID1412536111"
@@ -1238,7 +1370,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </cond>
         <time id="ID1412536113">
           <posattr x="338.500000"
@@ -1252,7 +1384,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </time>
         <code id="ID1412536114">
           <posattr x="358.500000"
@@ -1266,7 +1398,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </code>
         <priority id="ID1412536116">
           <posattr x="226.000000"
@@ -1280,7 +1412,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </priority>
       </trans>
       <trans id="ID1412603372"
@@ -1328,7 +1460,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </cond>
         <time id="ID1412603374">
           <posattr x="610.981082"
@@ -1342,7 +1474,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </time>
         <code id="ID1412603375">
           <posattr x="630.981082"
@@ -1356,7 +1488,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </code>
         <priority id="ID1412603377">
           <posattr x="429.518918"
@@ -1370,7 +1502,97 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
+        </priority>
+      </trans>
+      <trans id="ID1413106094"
+             explicit="false">
+        <posattr x="865.844900"
+                 y="-42.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <text>ALU</text>
+        <box w="108.627167"
+             h="185.881500"/>
+        <subst subpage="ID1413106106"
+               portsock="(ID1413106114,ID1412582564)(ID1413106119,ID1412582049)(ID1413106124,ID1413104904)(ID1413109397,ID1413111442)">
+          <subpageinfo id="ID1413106142"
+                       name="ALU">
+            <posattr x="865.844900"
+                     y="-138.940750"/>
+            <fillattr colour="White"
+                      pattern="Solid"
+                      filled="false"/>
+            <lineattr colour="Black"
+                      thick="0"
+                      type="Solid"/>
+            <textattr colour="Black"
+                      bold="false"/>
+          </subpageinfo>
+        </subst>
+        <binding x="7.200000"
+                 y="-3.000000"/>
+        <cond id="ID1413106095">
+          <posattr x="802.531317"
+                   y="61.940750"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1"/>
+        </cond>
+        <time id="ID1413106096">
+          <posattr x="934.658484"
+                   y="61.940750"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1"/>
+        </time>
+        <code id="ID1413106097">
+          <posattr x="954.658484"
+                   y="-166.940750"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1"/>
+        </code>
+        <priority id="ID1413106099">
+          <posattr x="773.531317"
+                   y="-145.940750"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1"/>
         </priority>
       </trans>
       <arc id="ID1412440023"
@@ -1402,7 +1624,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">instr</text>
+                version="4.0.1">instr</text>
         </annot>
       </arc>
       <arc id="ID1412441173"
@@ -1434,7 +1656,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">instr</text>
+                version="4.0.1">instr</text>
         </annot>
       </arc>
       <arc id="ID1412441357"
@@ -1466,7 +1688,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">getReg(instr,6)</text>
+                version="4.0.1">getReg(instr,6)</text>
         </annot>
       </arc>
       <arc id="ID1412441457"
@@ -1511,7 +1733,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">2`getReg(instr,11)</text>
+                version="4.0.1">2`getReg(instr,11)</text>
         </annot>
       </arc>
       <arc id="ID1412441559"
@@ -1556,7 +1778,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">cut(instr,16,15)</text>
+                version="4.0.1">cut(instr,16,15)</text>
         </annot>
       </arc>
       <arc id="ID1412520748"
@@ -1588,7 +1810,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </annot>
       </arc>
       <arc id="ID1412520750"
@@ -1620,7 +1842,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </annot>
       </arc>
       <arc id="ID1412526837"
@@ -1652,7 +1874,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">instr</text>
+                version="4.0.1">instr</text>
         </annot>
       </arc>
       <arc id="ID1412528707"
@@ -1697,7 +1919,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">getReg(instr,16)</text>
+                version="4.0.1">getReg(instr,16)</text>
         </annot>
       </arc>
       <arc id="ID1412536117"
@@ -1729,7 +1951,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">reg</text>
+                version="4.0.1">reg</text>
         </annot>
       </arc>
       <arc id="ID1412536119"
@@ -1761,7 +1983,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">regRD</text>
+                version="4.0.1">regRD</text>
         </annot>
       </arc>
       <arc id="ID1412536121"
@@ -1806,7 +2028,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">regRT</text>
+                version="4.0.1">regRT</text>
         </annot>
       </arc>
       <arc id="ID1412538380"
@@ -1838,7 +2060,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">bit</text>
+                version="4.0.1">bit</text>
         </annot>
       </arc>
       <arc id="ID1412603378"
@@ -1883,7 +2105,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </annot>
       </arc>
       <arc id="ID1412603380"
@@ -1928,7 +2150,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </annot>
       </arc>
       <arc id="ID1412603382"
@@ -1973,7 +2195,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </annot>
       </arc>
       <arc id="ID1412603384"
@@ -2018,7 +2240,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </annot>
       </arc>
       <arc id="ID1412603386"
@@ -2063,7 +2285,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </annot>
       </arc>
       <arc id="ID1412603388"
@@ -2108,7 +2330,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </annot>
       </arc>
       <arc id="ID1412603390"
@@ -2140,7 +2362,161 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
+        </annot>
+      </arc>
+      <arc id="ID1413106100"
+           orientation="PtoT"
+           order="1">
+        <posattr x="0.000000"
+                 y="0.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <arrowattr headsize="1.200000"
+                   currentcyckle="2"/>
+        <transend idref="ID1413106094"/>
+        <placeend idref="ID1412582564"/>
+        <bendpoint id="ID1413110660"
+                   serial="1">
+          <posattr x="756.000000"
+                   y="-84.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+        </bendpoint>
+        <annot id="ID1413106101">
+          <posattr x="781.000000"
+                   y="-73.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1">valueB</text>
+        </annot>
+      </arc>
+      <arc id="ID1413106102"
+           orientation="PtoT"
+           order="1">
+        <posattr x="0.000000"
+                 y="0.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <arrowattr headsize="1.200000"
+                   currentcyckle="2"/>
+        <transend idref="ID1413106094"/>
+        <placeend idref="ID1412582049"/>
+        <bendpoint id="ID1413111045"
+                   serial="1">
+          <posattr x="798.000000"
+                   y="0.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+        </bendpoint>
+        <annot id="ID1413106103">
+          <posattr x="746.000000"
+                   y="11.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1">valueA</text>
+        </annot>
+      </arc>
+      <arc id="ID1413106104"
+           orientation="TtoP"
+           order="1">
+        <posattr x="0.000000"
+                 y="0.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <arrowattr headsize="1.200000"
+                   currentcyckle="2"/>
+        <transend idref="ID1413106094"/>
+        <placeend idref="ID1413104904"/>
+        <annot id="ID1413106105">
+          <posattr x="958.000000"
+                   y="-28.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1"/>
+        </annot>
+      </arc>
+      <arc id="ID1413111858"
+           orientation="PtoT"
+           order="1">
+        <posattr x="0.000000"
+                 y="0.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <arrowattr headsize="1.200000"
+                   currentcyckle="2"/>
+        <transend idref="ID1413106094"/>
+        <placeend idref="ID1413111442"/>
+        <annot id="ID1413111859">
+          <posattr x="902.500000"
+                   y="99.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1">aluControl</text>
         </annot>
       </arc>
       <constraints/>
@@ -2182,7 +2558,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">INSTRUCTION</text>
+                version="4.0.1">INSTRUCTION</text>
         </type>
         <initmark id="ID1412838381">
           <posattr x="-153.000000"
@@ -2196,7 +2572,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
         <port id="ID1412520797"
               type="Out">
@@ -2247,7 +2623,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">COUNTER</text>
+                version="4.0.1">COUNTER</text>
         </type>
         <initmark id="ID1412520767">
           <posattr x="-723.000000"
@@ -2261,7 +2637,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
         <port id="ID1412520801"
               type="In">
@@ -2312,7 +2688,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">DATAxADRESS</text>
+                version="4.0.1">DATAxADRESS</text>
         </type>
         <initmark id="ID1412648697">
           <posattr x="-309.000000"
@@ -2326,7 +2702,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">1`(&quot;00000001&quot;,&quot;00000000000000000000000000000000&quot;)++
+                version="4.0.1">1`(&quot;00000001&quot;,&quot;00000000000000000000000000000000&quot;)++
  1`(&quot;00000010&quot;,&quot;00000000000000000000000000000001&quot;)++
  1`(&quot;00000000&quot;,&quot;00000000000000000000000000000010&quot;)++
  1`(&quot;00100000&quot;,&quot;00000000000000000000000000000011&quot;)++
@@ -2366,7 +2742,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </cond>
         <time id="ID1412520756">
           <posattr x="-459.500000"
@@ -2380,7 +2756,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </time>
         <code id="ID1412520757">
           <posattr x="-439.500000"
@@ -2394,7 +2770,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </code>
         <priority id="ID1412520759">
           <posattr x="-572.000000"
@@ -2408,7 +2784,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </priority>
       </trans>
       <arc id="ID1412520768"
@@ -2440,7 +2816,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">getInstr</text>
+                version="4.0.1">getInstr</text>
         </annot>
       </arc>
       <arc id="ID1412657483"
@@ -2472,7 +2848,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">(getInstr,instr)</text>
+                version="4.0.1">(getInstr,instr)</text>
         </annot>
       </arc>
       <arc id="ID1412657962"
@@ -2504,7 +2880,7 @@ end</layout>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">instr</text>
+                version="4.0.1">instr</text>
         </annot>
       </arc>
       <constraints/>
@@ -2600,7 +2976,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">OPERATION</text>
+                version="4.0.1">OPERATION</text>
         </type>
         <initmark id="ID1412526849">
           <posattr x="56.000000"
@@ -2614,7 +2990,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
         <port id="ID1412526873"
               type="In">
@@ -2659,7 +3035,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </cond>
         <time id="ID1412526843">
           <posattr x="150.500000"
@@ -2673,7 +3049,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </time>
         <code id="ID1412526844">
           <posattr x="170.500000"
@@ -2687,7 +3063,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </code>
         <priority id="ID1412526846">
           <posattr x="38.000000"
@@ -2701,7 +3077,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </priority>
       </trans>
       <arc id="ID1412526850"
@@ -2733,7 +3109,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </annot>
       </arc>
       <constraints/>
@@ -2775,7 +3151,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">REGISTER</text>
+                version="4.0.1">REGISTER</text>
         </type>
         <initmark id="ID1412536133">
           <posattr x="686.000000"
@@ -2789,7 +3165,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
         <port id="ID1412536179"
               type="Out">
@@ -2840,7 +3216,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">REGISTER</text>
+                version="4.0.1">REGISTER</text>
         </type>
         <initmark id="ID1412536138">
           <posattr x="140.000000"
@@ -2854,7 +3230,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
         <port id="ID1412536182"
               type="In">
@@ -2905,7 +3281,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">REGISTER</text>
+                version="4.0.1">REGISTER</text>
         </type>
         <initmark id="ID1412536143">
           <posattr x="142.000000"
@@ -2919,7 +3295,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
         <port id="ID1412536185"
               type="In">
@@ -2970,7 +3346,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">BIT</text>
+                version="4.0.1">BIT</text>
         </type>
         <initmark id="ID1412555622">
           <posattr x="350.000000"
@@ -2984,7 +3360,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
         <port id="ID1412555944"
               type="In">
@@ -3029,7 +3405,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </cond>
         <time id="ID1412536127">
           <posattr x="338.500000"
@@ -3043,7 +3419,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </time>
         <code id="ID1412536128">
           <posattr x="358.500000"
@@ -3057,7 +3433,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </code>
         <priority id="ID1412536130">
           <posattr x="226.000000"
@@ -3071,7 +3447,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </priority>
       </trans>
       <arc id="ID1412536134"
@@ -3103,7 +3479,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">if(bit = &quot;1&quot;) then regRD else regRT</text>
+                version="4.0.1">if(bit = &quot;1&quot;) then regRD else regRT</text>
         </annot>
       </arc>
       <arc id="ID1412536139"
@@ -3148,7 +3524,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">regRD</text>
+                version="4.0.1">regRD</text>
         </annot>
       </arc>
       <arc id="ID1412536144"
@@ -3193,7 +3569,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">regRT</text>
+                version="4.0.1">regRT</text>
         </annot>
       </arc>
       <arc id="ID1412556914"
@@ -3225,7 +3601,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">bit</text>
+                version="4.0.1">bit</text>
         </annot>
       </arc>
       <constraints/>
@@ -3267,7 +3643,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">REGISTER</text>
+                version="4.0.1">REGISTER</text>
         </type>
         <initmark id="ID1412603420">
           <posattr x="287.000000"
@@ -3281,7 +3657,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
         <port id="ID1412603527"
               type="In">
@@ -3332,7 +3708,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">REGISTER</text>
+                version="4.0.1">REGISTER</text>
         </type>
         <initmark id="ID1412603425">
           <posattr x="371.000000"
@@ -3346,7 +3722,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
         <port id="ID1412603531"
               type="In">
@@ -3386,7 +3762,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412603429">
-          <posattr x="709.000000"
+          <posattr x="702.000000"
                    y="-107.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3397,7 +3773,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">STRING</text>
+                version="4.0.1">DATA</text>
         </type>
         <initmark id="ID1412603430">
           <posattr x="718.000000"
@@ -3411,7 +3787,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
         <port id="ID1412603534"
               type="Out">
@@ -3451,7 +3827,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412603434">
-          <posattr x="706.000000"
+          <posattr x="699.000000"
                    y="-23.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3462,7 +3838,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">STRING</text>
+                version="4.0.1">DATA</text>
         </type>
         <initmark id="ID1412603435">
           <posattr x="715.000000"
@@ -3476,7 +3852,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
         <port id="ID1412603537"
               type="Out">
@@ -3527,7 +3903,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">REGISTER</text>
+                version="4.0.1">REGISTER</text>
         </type>
         <initmark id="ID1412603440">
           <posattr x="286.000000"
@@ -3541,7 +3917,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
         <port id="ID1412603540"
               type="In">
@@ -3581,7 +3957,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412603444">
-          <posattr x="467.000000"
+          <posattr x="460.000000"
                    y="-260.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3592,7 +3968,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">STRING</text>
+                version="4.0.1">DATA</text>
         </type>
         <initmark id="ID1412603445">
           <posattr x="476.000000"
@@ -3606,7 +3982,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
         <port id="ID1412603544"
               type="In">
@@ -3657,7 +4033,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">BIT</text>
+                version="4.0.1">BIT</text>
         </type>
         <initmark id="ID1412603450">
           <posattr x="256.000000"
@@ -3671,7 +4047,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </initmark>
         <port id="ID1412603547"
               type="In">
@@ -3722,7 +4098,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">REGISTERxDATA</text>
+                version="4.0.1">REGISTERxDATA</text>
         </type>
         <initmark id="ID1412662225">
           <posattr x="561.000000"
@@ -3736,7 +4112,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">1`(&quot;00000&quot;,&quot;00000001&quot;)++
+                version="4.0.1">1`(&quot;00000&quot;,&quot;00000001&quot;)++
  1`(&quot;00001&quot;,&quot;00000010&quot;)++
  1`(&quot;00010&quot;,&quot;00000000&quot;)++
  1`(&quot;00011&quot;,&quot;00100000&quot;)++
@@ -3778,7 +4154,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </cond>
         <time id="ID1412603396">
           <posattr x="506.500000"
@@ -3792,7 +4168,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </time>
         <code id="ID1412603397">
           <posattr x="526.500000"
@@ -3806,7 +4182,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </code>
         <priority id="ID1412603399">
           <posattr x="394.000000"
@@ -3820,7 +4196,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </priority>
       </trans>
       <trans id="ID1412603406"
@@ -3852,7 +4228,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </cond>
         <time id="ID1412603408">
           <posattr x="575.908799"
@@ -3866,7 +4242,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </time>
         <code id="ID1412603409">
           <posattr x="595.908799"
@@ -3880,7 +4256,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </code>
         <priority id="ID1412603411">
           <posattr x="463.408799"
@@ -3894,7 +4270,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </priority>
       </trans>
       <trans id="ID1412603412"
@@ -3926,7 +4302,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </cond>
         <time id="ID1412603414">
           <posattr x="590.500000"
@@ -3940,7 +4316,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </time>
         <code id="ID1412603415">
           <posattr x="610.500000"
@@ -3954,7 +4330,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </code>
         <priority id="ID1412603417">
           <posattr x="478.000000"
@@ -3968,7 +4344,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </priority>
       </trans>
       <trans id="ID1412603400"
@@ -4000,7 +4376,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </cond>
         <time id="ID1412603402">
           <posattr x="535.500000"
@@ -4014,7 +4390,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </time>
         <code id="ID1412603403">
           <posattr x="555.500000"
@@ -4028,7 +4404,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </code>
         <priority id="ID1412603405">
           <posattr x="423.000000"
@@ -4042,7 +4418,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </priority>
       </trans>
       <arc id="ID1412603426"
@@ -4074,7 +4450,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </annot>
       </arc>
       <arc id="ID1412603436"
@@ -4106,7 +4482,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">data</text>
+                version="4.0.1">data</text>
         </annot>
       </arc>
       <arc id="ID1412603441"
@@ -4138,7 +4514,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">regRS</text>
+                version="4.0.1">regRS</text>
         </annot>
       </arc>
       <arc id="ID1412603446"
@@ -4170,7 +4546,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </annot>
       </arc>
       <arc id="ID1412603451"
@@ -4202,7 +4578,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0"/>
+                version="4.0.1"/>
         </annot>
       </arc>
       <arc id="ID1412662519"
@@ -4247,7 +4623,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">(regRS,data)</text>
+                version="4.0.1">(regRS,data)</text>
         </annot>
       </arc>
       <arc id="ID1412672320"
@@ -4292,7 +4668,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">(regRS,data)</text>
+                version="4.0.1">(regRS,data)</text>
         </annot>
       </arc>
       <arc id="ID1412603421"
@@ -4324,7 +4700,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">regRT</text>
+                version="4.0.1">regRT</text>
         </annot>
       </arc>
       <arc id="ID1412603431"
@@ -4356,7 +4732,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">data</text>
+                version="4.0.1">data</text>
         </annot>
       </arc>
       <arc id="ID1412684665"
@@ -4401,7 +4777,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">(regRT,data)</text>
+                version="4.0.1">(regRT,data)</text>
         </annot>
       </arc>
       <arc id="ID1412687521"
@@ -4446,7 +4822,7 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">(regRT,data)</text>
+                version="4.0.1">(regRT,data)</text>
         </annot>
       </arc>
       <constraints/>
@@ -4476,6 +4852,475 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
  (&quot;01010&quot;,&quot;10111111&quot;),&quot;];</text>
       </Aux>
     </page>
+    <page id="ID1413106106">
+      <pageattr name="ALU"/>
+      <place id="ID1413106114">
+        <posattr x="662.000000"
+                 y="-84.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <text>B</text>
+        <ellipse w="60.000000"
+                 h="40.000000"/>
+        <token x="-10.000000"
+               y="0.000000"/>
+        <marking x="0.000000"
+                 y="0.000000"
+                 hidden="false">
+          <snap snap_id="0"
+                anchor.horizontal="0"
+                anchor.vertical="0"/>
+        </marking>
+        <type id="ID1413106115">
+          <posattr x="702.000000"
+                   y="-107.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1">DATA</text>
+        </type>
+        <initmark id="ID1413135134">
+          <posattr x="718.000000"
+                   y="-60.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1"/>
+        </initmark>
+        <port id="ID1413106161"
+              type="In">
+          <posattr x="637.000000"
+                   y="-100.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+        </port>
+      </place>
+      <place id="ID1413106119">
+        <posattr x="659.000000"
+                 y="0.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <text>A</text>
+        <ellipse w="60.000000"
+                 h="40.000000"/>
+        <token x="-10.000000"
+               y="0.000000"/>
+        <marking x="0.000000"
+                 y="0.000000"
+                 hidden="false">
+          <snap snap_id="0"
+                anchor.horizontal="0"
+                anchor.vertical="0"/>
+        </marking>
+        <type id="ID1413106120">
+          <posattr x="699.000000"
+                   y="-23.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1">DATA</text>
+        </type>
+        <initmark id="ID1413134707">
+          <posattr x="715.000000"
+                   y="23.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1"/>
+        </initmark>
+        <port id="ID1413106165"
+              type="In">
+          <posattr x="634.000000"
+                   y="-16.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+        </port>
+      </place>
+      <place id="ID1413106124">
+        <posattr x="1722.000000"
+                 y="-42.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <text></text>
+        <ellipse w="60.000000"
+                 h="40.000000"/>
+        <token x="-10.000000"
+               y="0.000000"/>
+        <marking x="0.000000"
+                 y="0.000000"
+                 hidden="false">
+          <snap snap_id="0"
+                anchor.horizontal="0"
+                anchor.vertical="0"/>
+        </marking>
+        <type id="ID1413106125">
+          <posattr x="1762.000000"
+                   y="-65.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1">DATA</text>
+        </type>
+        <initmark id="ID1413106126">
+          <posattr x="1778.000000"
+                   y="-18.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1"/>
+        </initmark>
+        <port id="ID1413106169"
+              type="Out">
+          <posattr x="1697.000000"
+                   y="-58.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+        </port>
+      </place>
+      <place id="ID1413109397">
+        <posattr x="870.000000"
+                 y="150.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <text></text>
+        <ellipse w="60.000000"
+                 h="40.000000"/>
+        <token x="-10.000000"
+               y="0.000000"/>
+        <marking x="0.000000"
+                 y="0.000000"
+                 hidden="false">
+          <snap snap_id="0"
+                anchor.horizontal="0"
+                anchor.vertical="0"/>
+        </marking>
+        <type id="ID1413109398">
+          <posattr x="904.000000"
+                   y="126.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1">BIT</text>
+        </type>
+        <initmark id="ID1413109399">
+          <posattr x="926.000000"
+                   y="173.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1"/>
+        </initmark>
+        <port id="ID1413112283"
+              type="In">
+          <posattr x="845.000000"
+                   y="133.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+        </port>
+      </place>
+      <trans id="ID1413106108"
+             explicit="false">
+        <posattr x="870.000000"
+                 y="-42.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <text></text>
+        <box w="60.000000"
+             h="40.000000"/>
+        <binding x="7.200000"
+                 y="-3.000000"/>
+        <cond id="ID1413106109">
+          <posattr x="831.000000"
+                   y="-11.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1"/>
+        </cond>
+        <time id="ID1413106110">
+          <posattr x="914.500000"
+                   y="-11.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1"/>
+        </time>
+        <code id="ID1413106111">
+          <posattr x="934.500000"
+                   y="-94.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1"/>
+        </code>
+        <priority id="ID1413106113">
+          <posattr x="802.000000"
+                   y="-73.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1"/>
+        </priority>
+      </trans>
+      <arc id="ID1413106117"
+           orientation="PtoT"
+           order="1">
+        <posattr x="0.000000"
+                 y="0.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <arrowattr headsize="1.200000"
+                   currentcyckle="2"/>
+        <transend idref="ID1413106108"/>
+        <placeend idref="ID1413106114"/>
+        <annot id="ID1413106118">
+          <posattr x="754.000000"
+                   y="-50.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1">valueB</text>
+        </annot>
+      </arc>
+      <arc id="ID1413106122"
+           orientation="PtoT"
+           order="1">
+        <posattr x="0.000000"
+                 y="0.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <arrowattr headsize="1.200000"
+                   currentcyckle="2"/>
+        <transend idref="ID1413106108"/>
+        <placeend idref="ID1413106119"/>
+        <annot id="ID1413106123">
+          <posattr x="776.000000"
+                   y="-7.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1">valueA</text>
+        </annot>
+      </arc>
+      <arc id="ID1413106127"
+           orientation="TtoP"
+           order="1">
+        <posattr x="0.000000"
+                 y="0.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <arrowattr headsize="1.200000"
+                   currentcyckle="2"/>
+        <transend idref="ID1413106108"/>
+        <placeend idref="ID1413106124"/>
+        <annot id="ID1413106128">
+          <posattr x="1292.000000"
+                   y="-10.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1">if(aluControl = &quot;001&quot;) then DecimalToBinary(floor(convertToDecimal(valueA)+convertToDecimal(valueB))) 
+else if(aluControl = &quot;010&quot;) then DecimalToBinary(floor(convertToDecimal(valueA)-convertToDecimal(valueB)))
+else if(aluControl = &quot;011&quot;) then DecimalToBinary(floor(convertToDecimal(valueA)*convertToDecimal(valueB)))
+else &quot;00000000000000000000000000000000&quot;</text>
+        </annot>
+      </arc>
+      <arc id="ID1413109573"
+           orientation="PtoT"
+           order="1">
+        <posattr x="0.000000"
+                 y="0.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <arrowattr headsize="1.200000"
+                   currentcyckle="2"/>
+        <transend idref="ID1413106108"/>
+        <placeend idref="ID1413109397"/>
+        <annot id="ID1413109574">
+          <posattr x="906.500000"
+                   y="54.000000"/>
+          <fillattr colour="White"
+                    pattern="Solid"
+                    filled="false"/>
+          <lineattr colour="Black"
+                    thick="0"
+                    type="Solid"/>
+          <textattr colour="Black"
+                    bold="false"/>
+          <text tool="CPN Tools"
+                version="4.0.1">aluControl</text>
+        </annot>
+      </arc>
+      <constraints/>
+    </page>
     <instances>
       <instance id="ID2149"
                 page="ID6">
@@ -4487,6 +5332,8 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
                   trans="ID1412536111"/>
         <instance id="ID1412603490"
                   trans="ID1412603372"/>
+        <instance id="ID1413106143"
+                  trans="ID1413106094"/>
       </instance>
     </instances>
     <options>
@@ -4510,7 +5357,32 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <text>&lt;same as model&gt;</text>
         </value>
       </option>
-      <option name="extensions.10005.enable">
+      <option name="extensions.10006.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10011.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10004.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10007.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10001.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10008.enable">
         <value>
           <boolean>true</boolean>
         </value>
@@ -4520,19 +5392,24 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <boolean>true</boolean>
         </value>
       </option>
+      <option name="extensions.10005.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
       <option name="extensions.10003.enable">
         <value>
           <boolean>true</boolean>
         </value>
       </option>
-      <option name="extensions.10006.enable">
+      <option name="extensions.10011.options.disable">
         <value>
-          <boolean>true</boolean>
+          <boolean>false</boolean>
         </value>
       </option>
-      <option name="extensions.10001.enable">
+      <option name="extensions.10007.options.discover">
         <value>
-          <boolean>true</boolean>
+          <boolean>false</boolean>
         </value>
       </option>
       <option name="repavg">
@@ -4733,8 +5610,8 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
     </options>
     <binders>
       <cpnbinder id="ID1412446396"
-                 x="339"
-                 y="121"
+                 x="497"
+                 y="108"
                  width="1046"
                  height="685">
         <sheets>
@@ -4774,32 +5651,32 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
               <position value="0"/>
             </zorder>
           </cpnsheet>
-        </sheets>
-        <zorder>
-          <position value="0"/>
-          <position value="3"/>
-          <position value="2"/>
-          <position value="1"/>
-        </zorder>
-      </cpnbinder>
-      <cpnbinder id="ID1412655909"
-                 x="286"
-                 y="175"
-                 width="1046"
-                 height="685">
-        <sheets>
           <cpnsheet id="ID1412446380"
-                    panx="-312.454563"
-                    pany="-63.849406"
+                    panx="66.545437"
+                    pany="136.150594"
                     zoom="0.904844"
                     instance="ID2149">
             <zorder>
               <position value="0"/>
             </zorder>
           </cpnsheet>
+          <cpnsheet id="ID1413106269"
+                    panx="-1331.000000"
+                    pany="-73.000000"
+                    zoom="1.000000"
+                    instance="ID1413106143">
+            <zorder>
+              <position value="0"/>
+            </zorder>
+          </cpnsheet>
         </sheets>
         <zorder>
+          <position value="2"/>
+          <position value="1"/>
+          <position value="3"/>
           <position value="0"/>
+          <position value="5"/>
+          <position value="4"/>
         </zorder>
       </cpnbinder>
     </binders>
@@ -4867,6 +5744,16 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <IndexNode expanded="false"/>
           <IndexNode expanded="false"/>
           <IndexNode expanded="false"/>
+          <IndexNode expanded="false"/>
+          <IndexNode expanded="false"/>
+          <IndexNode expanded="false"/>
+          <IndexNode expanded="false"/>
+        </IndexNode>
+        <IndexNode expanded="false">
+          <IndexNode expanded="false"/>
+        </IndexNode>
+        <IndexNode expanded="false">
+          <IndexNode expanded="false"/>
         </IndexNode>
       </IndexNode>
       <IndexNode expanded="false">
@@ -4878,7 +5765,16 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <IndexNode expanded="true"/>
           <IndexNode expanded="true"/>
         </IndexNode>
-        <IndexNode expanded="false">
+        <IndexNode expanded="true">
+          <IndexNode expanded="false"/>
+          <IndexNode expanded="false"/>
+          <IndexNode expanded="false"/>
+          <IndexNode expanded="false"/>
+          <IndexNode expanded="false"/>
+          <IndexNode expanded="false"/>
+          <IndexNode expanded="false"/>
+          <IndexNode expanded="false"/>
+          <IndexNode expanded="true"/>
           <IndexNode expanded="false"/>
           <IndexNode expanded="false"/>
           <IndexNode expanded="false"/>
@@ -4890,18 +5786,13 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
           <IndexNode expanded="false"/>
           <IndexNode expanded="false"/>
           <IndexNode expanded="false"/>
+          <IndexNode expanded="true"/>
           <IndexNode expanded="false"/>
           <IndexNode expanded="false"/>
           <IndexNode expanded="false"/>
+          <IndexNode expanded="true"/>
           <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
+          <IndexNode expanded="true"/>
           <IndexNode expanded="false"/>
           <IndexNode expanded="false"/>
           <IndexNode expanded="false"/>
@@ -4915,7 +5806,8 @@ then getFullInstruction(mem,4) else returnInstruction(tl mem, instrAddress);</te
         </IndexNode>
       </IndexNode>
       <IndexNode expanded="false"/>
-      <IndexNode expanded="true">
+      <IndexNode expanded="false">
+        <IndexNode expanded="true"/>
         <IndexNode expanded="true"/>
         <IndexNode expanded="true"/>
         <IndexNode expanded="true"/>
